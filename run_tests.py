@@ -4,7 +4,7 @@ from weather_wizzard.WeatherWizzard import WeatherWizzard
 
 def main(args):
     if len(args) != 1:
-        sys.stderr.write("Usage: change_name.py <id>\n")
+        sys.stderr.write("Usage: run_tests.py <id>\n")
         sys.exit(1)
 
     id = args[0]
